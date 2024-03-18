@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400");
+body {
+  margin: 50px 95px;
+  border: solid 1.5px #000;
+  border-radius: 35px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.07rem;
+}
+
+/* ************************* */
+/* ***** GLOBAL CSS ***** */
+/* ************************* */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Inconsolata", monospace;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  height: 1180px;
+  position: relative;
+}
+
+/* ************************* */
+/* ***** LEFT SIDE BAR ***** */
+/* ************************* */
+
+.left-side {
+  width: 35%;
+}
+
+.left-header {
+  position: absolute;
+  background-color: #6e9b9b;
+  margin: 0 0.5% 0 8%;
+  height: 1180px;
+  width: 27%;
+}
+
+.profile-img {
+  position: absolute;
+  width: 81%;
+  height: 18.4%;
+  top: 6%;
+  left: 8%;
+  border: solid 3px #fdfdfd;
+  border-radius: 50%;
+}
+
+.profile-img img {
+  height: 116%;
+}
+
+.left-body {
+  display: block;
+  margin: 125% 1% 0% 13%;
+}
+
+.left-body h3 {
+  color: #fdfdfd;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  display: inline;
+}
+.left-body p {
+  margin: 12% 1% 27% 0%;
+  color: #fdfdfd;
+  line-height: 167%;
+}
+
+.contact-me-section ul {
+  padding: 0;
+  margin-top: 15%;
+  color: #fdfdfd;
+}
+.contact-me-section ul li {
+  list-style: none;
+  margin: 8% 0 9% 0;
+  font-size: 85%;
+}
+
+.contact-email {
+  letter-spacing: 0.03rem;
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.contact-me-icons {
+  margin: 0% 5% -1% 0%;
+  font-size: 120%;
+}
+
+/* ************************* */
+/* ***** RIGHT SIDE ******** */
+/* ************************* */
+
+.right-side {
+  width: 65%;
+}
+
+.right-header {
+  background-color: #e7c9bb;
+  height: 19%;
+  margin: 10% 0 0 -53.7%;
+  display: block;
+  width: 153.79%;
+}
+
+.right-header small {
+  margin-left: 35%;
+}
+
+.right-header h1 {
+  font-size: 385%;
+  margin: 6% 0% 2% 40%;
+  letter-spacing: 0.2rem;
+}
+.right-header text {
+  margin-left: 71%;
+}
+
+.right-body {
+  padding: 3% 1% 1% 4%;
+  margin: 1%;
+}
+
+.icons {
+  color: #427a7a;
+  margin: 0 3% -0.7% 0;
+}
+
+.right-body h2 {
+  margin: 2% 0 2.5% 0;
+  color: #375f5f;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  display: inline;
+}
+.right-body h3 {
+  margin: 2% 0 1.5% 0;
+}
+
+.page {
+  margin: 6% 0% 0% 0.5%;
+}
+
+.description-section {
+  padding: 0% 0% 4% 7%;
+  letter-spacing: 0.05rem;
+  line-height: 135%;
+}
+
+.description-overflow {
+  overflow: scroll;
+  height: 710px;
+}
+
+.total-exp-span {
+  display: block;
+  margin-top: 4%;
+}
+
+.description-section p {
+  margin: 1% 0 1% 0;
+}
+.description-section ul {
+  margin: 4% 0 3% 0;
+  line-height: 161%;
+}
+.description-section ul li {
+  list-style: none;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.current-skill {
+  width: 50%;
+}
+
+.new-skill {
+  width: 50%;
+}
+
+.back-button {
+  margin: 1% 0% 2% 0;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #f8efeb;
+  padding: 1.5% 2.5%;
+  color: #d69e80;
+  font-weight: bold;
+  display: inline;
+}
+
+.back-button-icons {
+  color: #d69e80;
+  margin: 0 1% -0.5% 0;
+}
+
+.link-style-depricate {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ***************** */
+/* Gallery Styles */
+/* ***************** */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  padding: 0 1.2rem;
+  overflow: scroll;
+  height: 680px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+/* ****************** */
+/* Experience Page */
+/* ****************** */
+
+.experience-my-work h3 {
+  padding: 2%;
+  margin: 4%;
+  background-color: #f8efeb;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.experience-my-work ul {
+  padding: 0 0 0% 23%;
+}
+.experience-my-work ul li {
+  padding: 4%;
+}
+
+.my-work-links {
+  padding: 2%;
+  text-decoration: none;
+  color: #375f5f;
+  font-weight: 800;
+  background-color: #ebefef;
+  border-radius: 5px;
+}
+
+.my-work-icons {
+  color: #375f5f;
+  margin: 0% 1.5% -0.5% 0%;
+}
+
+.exp-icons {
+  color: #325656;
+}
+
+/* ********************* */
+/* Education Page */
+/* ********************* */
+
+.description-section section {
+  margin: 6% 0% 0% 0%;
+}
+.description-section section p {
+  padding: 0% 0% 0% 2.5%;
+}
+
+/* ********************** */
+/* Skill Page */
+/* ********************** */
+
+.skill-page-ul {
+  padding: 0% 0% 0% 5%;
+}
+
+.skill-page-ul li {
+  padding: 1% 0% 0% 0%;
+}
+
+.skill-page-ul-tools {
+  padding: 0% 0% 0% 35%;
+}
+
+.skill-page-ul-tools li {
+  padding: 1% 0% 0% 0%;
+}
+
+.skill-page-icons {
+  margin: 0% 2% -0.5% 0%;
+}
+
+.skill-certificates-link {
+  margin: 5% 15%;
+  padding: 1.5%;
+  color: #375f5f;
+  background-color: #ebefef;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* ********************** */
+/* Profile Page */
+/* ********************** */
+
+.profile-description {
+  padding: 0% 0% 0% 3%;
+}
+
+/* ********************** */
+/* Certificates Page */
+/* ********************** */
+
+.certificate-data h3 {
+  margin: 10% 0% 2% 35%;
+  background-color: #f8efeb;
+  display: inline-block;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.certificate-data {
+  overflow: scroll;
+  height: 620px;
+}
+
+/* *********************** */
+/* Tooltip */
+/* *********************** */
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext-exp,
+.tooltip .tooltiptext,
+.tooltip .tooltiptext-skill,
+.tooltip .tooltiptext-profile {
+  visibility: visible;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  /* margin-left: -60px; */
+}
+.tooltip .tooltiptext-exp,
+.tooltip .tooltiptext,
+.tooltip .tooltiptext-skill {
+  background-color: #fff;
+  color: #fff;
+}
+
+.tooltip .tooltiptext-exp {
+  bottom: 80%;
+  left: 44%;
+  width: 23%;
+}
+
+.tooltip .tooltiptext {
+  bottom: 73%;
+  left: 40%;
+  width: 49%;
+}
+
+.tooltip .tooltiptext-skill {
+  bottom: 83%;
+  left: 36%;
+  width: 49%;
+}
+
+.tooltip .tooltiptext-profile {
+  bottom: 102%;
+  left: 21%;
+  width: 37%;
+  background-color: #6e9b9b;
+  color: #6e9b9b;
+}
+
+.tooltip-icons {
+  font-size: 18px;
+  margin: 0% 2% 0% 0%;
+}
+
+/* *********************** */
+/* Error Page */
+/* *********************** */
+
+.error-page {
+  text-align: center;
+  padding: 25px;
+}
+
+/* ************************* */
+/* ***** HOVER EFFECTS ***** */
+/* ************************* */
+
+.back-button:hover {
+  background-color: #f5e9e4;
+  color: #d1805b;
+  transition: all 0.6s;
+}
+
+.right-body h2:hover {
+  transition: all 0.5s;
+  transform: translate(2px) scale(1, 1.2);
+  font-size: 153%;
+}
+
+.left-body h3:hover {
+  transition: all 0.5s;
+  transform: translate(2px) scale(1, 1.2);
+  font-size: 123%;
+}
+
+.profile-img:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.my-work-links:hover,
+.skill-certificates-link:hover {
+  background-color: #c3cfcf;
+  color: #325656;
+  transition: all 0.7s;
+}
+
+.contact-email:hover {
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+/* ********************************************************** */
+/* ************** MEDIA QUERIES  ******************/
+/* ********************************************************** */
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 5px 5px;
+    border: solid 1px #000;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.05rem;
+    font-size: x-small;
+    line-height: 140%;
+  }
+
+  .container {
+    height: 73em;
+  }
+
+  .right-side {
+    height: 65em;
+  }
+
+  .left-header {
+    margin: 0 0.5% 0 2%;
+    width: 33%;
+    border-radius: 11px 0px 0 10px;
+    height: 73em;
+  }
+
+  .left-body {
+    margin: 148% 1% 0% 10%;
+  }
+
+  .left-body p {
+    font-size: 82%;
+  }
+
+  .right-body {
+    padding: 3% 1% 1% 3%;
+  }
+  .right-header {
+    margin: 10% 0 0 -53.7%;
+    height: 19%;
+    width: 153.8%;
+  }
+  .right-header small {
+    margin-left: 40%;
+  }
+
+  .right-header h1 {
+    font-size: 337%;
+    margin: 6% 0% 4% 40%;
+    letter-spacing: 0.06rem;
+    line-height: 1.8rem;
+  }
+
+  .right-body h2 {
+    margin: 2% 0 2.5% -5px;
+  }
+
+  .right-body h3 {
+    font-size: 105%;
+    letter-spacing: 0.04rem;
+  }
+
+  .profile-img {
+    position: absolute;
+    width: 86%;
+    height: 16%;
+    top: 4%;
+    left: 5%;
+    border: solid 2px #fdfdfd;
+  }
+
+  .gatsby-image-wrapper img .profile-img img {
+    object-fit: fill;
+  }
+
+  .description-section {
+    letter-spacing: 0.03rem;
+    padding: 0% 0% 6% 7%;
+    line-height: 0.9rem;
+  }
+
+  .description-overflow {
+    height: 465px;
+  }
+
+  .description-section ul {
+    line-height: 150%;
+    padding: 0 0 0 2%;
+  }
+
+  .description-section section p {
+    font-size: 87%;
+  }
+
+  .experience-my-work ul li {
+    padding: 3%;
+  }
+
+  .skill-page-ul li {
+    padding: 0% 0% 0% 20%;
+  }
+
+  .gallery {
+    gap: 0.6rem;
+    padding: 0 3%;
+    height: 430px;
+  }
+
+  .certificate-data {
+    overflow: scroll;
+    height: 465px;
+  }
+
+  .tooltip .tooltiptext-exp,
+  .tooltip .tooltiptext,
+  .tooltip .tooltiptext-skill,
+  .tooltip .tooltiptext-profile {
+    font-size: 80%;
+    padding: 2px 0;
+    line-height: 100%;
+  }
+
+  .tooltip-icons {
+    font-size: 12px;
+    margin: 0% 2% 0% 0%;
+  }
+
+  .tooltip .tooltiptext-profile {
+    bottom: 103%;
+    left: 28%;
+    width: 36%;
+  }
+
+  .tooltip .tooltiptext-exp {
+    bottom: 83%;
+    left: 60%;
+    width: 31%;
+  }
+
+  .tooltip .tooltiptext {
+    bottom: 75%;
+    left: 54%;
+    width: 41%;
+  }
+
+  .tooltip .tooltiptext-skill {
+    bottom: 83%;
+    left: 42%;
+    width: 50%;
+  }
+}

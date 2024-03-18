@@ -1,0 +1,119 @@
+.shepard-box {
+  background-color: gainsboro;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.shepherd-arrow:before { 
+  background-color: gainsboro;
+}
+
+.shepherd-text-style {
+  color: #fff;
+}
+
+.shepherd-cancel-icon {
+  color: red;
+}
+
+.shepherd-button-cancel {
+  color: #d1805b;
+  background-color: gainsboro;
+  /* margin-right: 30%; */
+  padding: 2% 3%;
+  margin: auto;
+}
+
+.shepherd-button:not(:disabled):hover {
+  background: gray;
+  color: #fff;
+}
+
+.shepherd-button-back {
+  font-size: 120%;
+  background-color: gainsboro;
+  color: black;
+  margin-right: 10%;
+  padding: 2% 3%;
+}
+.shepherd-button-next {
+  font-size: 120%;
+  background-color: gainsboro;
+  color: black;
+  padding: 2% 3%;
+}
+
+/* ********************************************************** */
+/* ************** MEDIA QUERIES  ******************/
+/* ********************************************************** */
+
+@media only screen and (max-width: 500px) {
+
+  .shepherd-text {
+    font-size: 0.7rem;
+    padding: 0.1rem;
+  }
+
+  .shepherd-arrow:before { 
+    background-color: gainsboro;
+  }
+
+  .shepherd-element, .shepherd-element *, .shepherd-element :after, .shepherd-element :before {
+    box-sizing: border-box;
+    width: auto;
+}
+
+  .shepherd-header {
+    padding: 0.3rem 0.3rem 0;
+}
+
+  .shepherd-footer {
+    padding: 0 0.3rem 0.3rem;
+  }
+
+  .shepherd-cancel-icon {
+    color: red;
+  }
+
+  .shepherd-button-cancel {
+    color: #d1805b;
+    background-color: #f5e9e4;
+    padding: 2% 3%;
+    margin: auto;
+  }
+
+  .shepherd-button-back {
+    font-size: 120%;
+    background-color: gainsboro;
+    color: black;
+    margin-right: 10%;
+    padding: 2% 3%;
+  }
+  .shepherd-button-next {
+    font-size: 120%;
+    background-color: gainsboro;
+    color: black;
+    padding: 2% 3%;
+  }
+
+  .shepherd-text-style {
+    color: #fff;
+  }
+
+  .shepherd-cancel-icon {
+    color: red;
+    font-size: x-large;
+  }
+
+  .shepherd-button-cancel {
+    font-size: small;
+  }
+
+  .shepherd-button-back {
+    font-size: large;
+  }
+  .shepherd-button-next {
+    font-size: large;
+  }
+}
