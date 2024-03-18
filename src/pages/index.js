@@ -39,7 +39,7 @@ import { differenceInMonths } from "date-fns";
 //   }, 7000);
 // }
 
-// Calculating Dynamic experience years
+// Calculating Dynamic experience years here
 const today = new Date();
 const iniDate = new Date("Feb 15, 2022");
 const exp = differenceInMonths(today, iniDate) / 12;
