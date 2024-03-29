@@ -13,7 +13,7 @@ import experience from "./experience";
 
 import { differenceInMonths } from "date-fns";
 
-// //Hide tooltip after three seconds
+// //Hide tooltip after three seconds here
 // if (typeof window !== "undefined") {
 //   let initialTimeout = setTimeout(function () {
 //     document.getElementById("tooltiptext-exp").style.backgroundColor = "white";
