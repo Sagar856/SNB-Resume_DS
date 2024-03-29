@@ -23,9 +23,10 @@ const certificates = ({ data }) => {
           </h2>
           <div className="description-section">
             <section className="certificate-data">
+              {/* Rendering certificated here */}
               {certi.map((items, index) => {
                 const pathToImg = getImage(items.image);
-                console.log(items.image);
+                console.log(pathToImg);
                 return (
                   <div key={index}>
                     <h3>{items.title}</h3>
