@@ -118,6 +118,7 @@ const skills = () => {
               </li>
              
             </ul>
+            {/* Loading Certificates Here */}
             <Link
               to="/skills/certificates"
               className="skill-certificates-link link-style-depricate"
