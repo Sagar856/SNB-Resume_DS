@@ -77,42 +77,30 @@ const experience = () => {
               <ul>
                 <li>
                   <Link
-                    to="https://sb-simply-recipes-grind.netlify.app"
+                    to="https://book-recommendation-model-cnmc2gyvg7bacatknnugr2.streamlit.app/"
                     className="my-work-links my-work-walkthrough"
                     target="_blank"
                   >
                     <IoArrowRedoCircle className="my-work-icons" /> Just Recipes
-                    Webapp site
+                    Books Recommendation Model
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="https://sb-youtube-plus-app.netlify.app"
+                    to="https://car-price-prediction-model-sb-2nd9wfnugsh3gsnnk2dvod.streamlit.app/"
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Youtube Plus
-                    App
+                    <IoArrowRedoCircle className="my-work-icons" /> Car Price Prediction Model
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="https://sb-omnifood-html-css.netlify.app"
+                    to="https://github.com/Sagar856/Data-Science-Assignments.git"
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Omnifood
-                    HTML-CSS Desktop
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="https://sb-web-warrior-gatsby.netlify.app"
-                    className="my-work-links"
-                    target="_blank"
-                  >
-                    <IoArrowRedoCircle className="my-work-icons" /> Web Warrior
-                    Site
+                    <IoArrowRedoCircle className="my-work-icons" /> Other Projects
                   </Link>
                 </li>
               </ul>
