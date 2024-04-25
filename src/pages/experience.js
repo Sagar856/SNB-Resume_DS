@@ -81,8 +81,7 @@ const experience = () => {
                     className="my-work-links my-work-walkthrough"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Just Recipes
-                    Books Recommendation Model
+                    <IoArrowRedoCircle className="my-work-icons" /> Books Recommendation Model
                   </Link>
                 </li>
                 <li>
