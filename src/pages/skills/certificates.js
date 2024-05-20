@@ -23,7 +23,7 @@ const certificates = ({ data }) => {
           </h2>
           <div className="description-section">
             <section className="certificate-data">
-              {/* Rendering certificates here */}
+              {/* Rendering all certificates here */}
               {certi.map((items, index) => {
                 const pathToImg = getImage(items.image);
                 console.log(pathToImg);
